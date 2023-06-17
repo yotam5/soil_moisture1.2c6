@@ -1,0 +1,16 @@
+[package]
+name = "soil_moisture1.2c6"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[features]
+default = ["hal"]
+hal = ["esp-idf-hal"]
+
+[dependencies]
+esp-idf-hal = { version = "0.41", optional = true, default-features = false }
+esp-idf-sys = { version = "0.33", default-features = false }
+
