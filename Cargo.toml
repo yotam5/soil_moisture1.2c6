@@ -5,7 +5,10 @@ authors = ["yotmst"]
 edition = "2021"
 resolver = "2"
 rust-version = "1.66"
-
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
 [profile.release]
 opt-level = "s"
 
