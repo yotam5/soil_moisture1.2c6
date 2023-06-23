@@ -9,6 +9,10 @@ include = [
     "**/*.rs",
     "Cargo.toml",
 ]
+categories = ["no-std"]
+license = "MIT OR Apache-2.0"
+keywords = ["esp", "sensor"]
+description = "Module for esp32c6 soil moisture sensor"
 [profile.release]
 opt-level = "s"
 
