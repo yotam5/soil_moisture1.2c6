@@ -1,5 +1,5 @@
 [package]
-name = "soild-moister-test"
+name = "soil_moisture_hal"
 version = "0.1.0"
 authors = ["yotmst"]
 edition = "2021"
