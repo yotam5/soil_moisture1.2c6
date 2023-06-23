@@ -32,7 +32,6 @@ alloc = ["embedded-svc?/alloc", "esp-idf-hal?/alloc", "esp-idf-svc?/alloc"]
 nightly = ["embedded-svc?/nightly", "esp-idf-svc?/nightly"] # Future: "esp-idf-hal?/nightly"
 experimental = ["embedded-svc?/experimental", "esp-idf-svc?/experimental"]
 embassy = ["esp-idf-hal?/embassy-sync", "esp-idf-hal?/critical-section", "esp-idf-hal?/edge-executor", "esp-idf-svc?/embassy-time-driver", "esp-idf-svc?/embassy-time-isr-queue"]
-
 [dependencies]
 esp-idf-sys = { version = "0.33", default-features = false }
 esp-idf-hal = { version = "0.41", optional = true, default-features = false }
