@@ -2,6 +2,7 @@
 
 const MAX_DRY: u16 = 2491;
 const MAX_WET: u16 = 1865;
+
 const MOISTURE_RANGE: u16 = MAX_DRY - MAX_WET;
 const FULL_PRECENTAGE: f32 = 100.0;
 const NO_PRECENTAGE: f32 = 0.0;
