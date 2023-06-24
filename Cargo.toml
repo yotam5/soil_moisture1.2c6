@@ -11,7 +11,7 @@ include = [
 ]
 categories = ["no-std"]
 license = "MIT OR Apache-2.0"
-keywords = ["esp", "sensor", "hal", "embedded", "esp-rs", "soil", "moisture""]
+keywords = ["esp", "sensor", "hal", "embedded", "esp-rs", "soil", "moisture"]
 description = "Module for the esp32 series, soil moisture sensor hal. was tested on esp32-c6 and soon on esp32-c3"
 
 [profile.release]
